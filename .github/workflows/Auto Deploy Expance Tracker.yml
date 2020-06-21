@@ -38,4 +38,4 @@ jobs:
       run: npm install --global surge
 
     - name: Deploy to Surge
-      run: surge ./build expance-tracker react-expance-tracker.surge.sh --token ${{ secrets.SURGE_TOKEN2 }}
+      run: surge ./build expance-tracker-atg.surge.sh --token ${{ secrets.SURGE_TOKEN2 }}
